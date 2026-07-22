@@ -12,13 +12,13 @@
 ## Repository Structure
 
 ```
-Sifra_Kether/              (this repo — umbrella)
+sifra_kether/              (this repo — umbrella)
 ├── docs/                  Architecture decisions, cross-project docs
 ├── README.md
 ├── LICENSE
 └── CONTRIBUTING.md
 
-Sifra_Kether-api/          (backend)
+sifra_kether-api/          (backend)
 ├── database/
 │   ├── schema/            Canonical SQL schema
 │   ├── migrations/          Versioned migrations
@@ -33,7 +33,7 @@ Sifra_Kether-api/          (backend)
 ├── tests/
 └── docker/
 
-Sifra_Kether-web/          (frontend)
+sifra_kether-web/          (frontend)
 ├── src/
 │   ├── reader/            Public text reader
 │   ├── editor/            Editorial interface
@@ -42,14 +42,14 @@ Sifra_Kether-web/          (frontend)
 ├── public/
 └── tests/
 
-Sifra_Kether-mobile/       (mobile app)
+sifra_kether-mobile/       (mobile app)
 ├── src/
 │   ├── reader/
 │   ├── audio/             Text-to-speech, audio studies
 │   └── offline/           Sync and cache
 └── tests/
 
-Sifra_Kether-branding/     (brand assets)
+sifra_kether-branding/     (brand assets)
 ├── logo/
 ├── guidelines/            Brand manual
 ├── ui-kit/                Design system
