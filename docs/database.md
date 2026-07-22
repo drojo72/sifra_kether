@@ -52,4 +52,4 @@ Named graphs per tradition: `rabbinic`, `comparative`, `kabbalistic`, etc.
 
 Current schema version: **v1.0 beta**
 
-Canonical file: `Sifra_Kether-api/database/schema/sifra_kether_db_v1_beta.sql`
+Canonical file: `sifra_kether-api/database/schema/sifra_kether_db_v1_beta.sql`
