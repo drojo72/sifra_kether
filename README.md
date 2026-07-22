@@ -16,21 +16,21 @@ Sifra Kether follows a multi-repository architecture within the KeySign Labs eco
 
 | Repository | Purpose |
 |------------|---------|
-| [Sifra_Kether](https://github.com/keysign-labs/Sifra_Kether) | This repo. Umbrella documentation, architecture decisions, and cross-project coordination |
-| [Sifra_Kether-api](https://github.com/keysign-labs/Sifra_Kether-api) | Backend API, database schema, ingest pipeline, search engine, authentication |
-| [Sifra_Kether-web](https://github.com/keysign-labs/Sifra_Kether-web) | Web frontend, editorial interface, public reader, admin dashboard |
-| [Sifra_Kether-mobile](https://github.com/keysign-labs/Sifra_Kether-mobile) | Mobile application (iOS/Android), offline reading, audio features |
-| [Sifra_Kether-branding](https://github.com/keysign-labs/Sifra_Kether-branding) | Brand identity, logo assets, style guides, editorial design system |
+| [Sifra_Kether](https://github.com/drojo72/sifra_kether) | This repo. Umbrella documentation, architecture decisions, and cross-project coordination |
+| [Sifra_Kether-api](https://github.com/drojo72/sifra_kether-api) | Backend API, database schema, ingest pipeline, search engine, authentication |
+| [Sifra_Kether-web](https://github.com/drojo72/sifra_kether-web) | Web frontend, editorial interface, public reader, admin dashboard |
+| [Sifra_Kether-mobile](https://github.com/drojo72/sifra_kether-mobile) | Mobile application (iOS/Android), offline reading, audio features |
+| [Sifra_Kether-branding](https://github.com/drojo72/sifra_kether-branding) | Brand identity, logo assets, style guides, editorial design system |
 
 ## API
 
 Sifra Kether exposes a public-facing REST API for structured access to texts, metadata, studies, and related editorial assets.
 
-API documentation lives in the [Sifra_Kether-api](https://github.com/keysign-labs/Sifra_Kether-api) repository.
+API documentation lives in the [Sifra_Kether-api](https://github.com/drojo72/sifra_kether-api) repository.
 
 ## Database
 
-The canonical database schema is maintained in `Sifra_Kether-api/database/schema/`.
+The canonical database schema is maintained in `sifra_kether-api/database/schema/`.
 
 Current version: **v1.0 beta**
 
@@ -55,7 +55,7 @@ This project is licensed under the Apache License, Version 2.0. See the [LICENSE
 
 ## KeySign Labs
 
-Sifra Kether is developed within the [KeySign Labs](https://github.com/keysign-labs) ecosystem.
+Sifra Kether is developed within the [KeySign Labs](https://github.com/drojo72) ecosystem.
 
 KeySign Labs builds sustainable digital infrastructure for communities of knowledge, faith, and culture.
 
